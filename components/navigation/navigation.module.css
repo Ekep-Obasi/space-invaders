@@ -1,0 +1,45 @@
+.nav {
+  border-bottom: 1px solid #22c55e;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.content {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  font-family: "Press Start 2P", monospace;
+  color: #22c55e;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #4ade80;
+}
+
+.activeLink {
+  font-family: "Press Start 2P", monospace;
+  color: #4ade80;
+  text-decoration: underline;
+}

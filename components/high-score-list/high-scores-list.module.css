@@ -1,0 +1,113 @@
+.container {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.emptyState {
+  text-align: center;
+}
+
+.emptyTitle {
+  font-size: 1.5rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.emptyText {
+  color: #6b7280;
+}
+
+.tableContainer {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  border: 1px solid #22c55e;
+}
+
+.table {
+  width: 100%;
+}
+
+.tableHead {
+  background-color: #14532d;
+}
+
+.tableHeader {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-family: "Press Start 2P", monospace;
+  color: #a7f3d0;
+}
+
+.scoreRow {
+  border-top: 1px solid #065f46;
+  background-color: black;
+}
+
+.topScoreRow {
+  border-top: 1px solid #065f46;
+  background-color: rgba(146, 64, 14, 0.2); 
+}
+
+.tableCell {
+  padding: 0.75rem 1rem;
+  font-family: "Press Start 2P", monospace;
+  color: #4ade80;
+}
+
+.clearButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ef4444; 
+  border-radius: 0.25rem;
+  background-color: black;
+  font-family: "Press Start 2P", monospace;
+  color: #ef4444; 
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clearButton:hover {
+  background-color: #7f1d1d;
+}
+
+.confirmContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmText {
+  font-family: "Press Start 2P", monospace;
+  color: #f87171;
+}
+
+.confirmButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ef4444;
+  border-radius: 0.25rem;
+  background-color: #7f1d1d;
+  font-family: "Press Start 2P", monospace;
+  color: #fca5a5;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.confirmButton:hover {
+  background-color: #991b1b;
+}
+
+.cancelButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #22c55e;
+  border-radius: 0.25rem;
+  background-color: black;
+  font-family: "Press Start 2P", monospace;
+  color: #22c55e;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cancelButton:hover {
+  background-color: #14532d;
+}

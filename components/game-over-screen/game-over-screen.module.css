@@ -1,0 +1,122 @@
+.container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  padding: 2rem;
+}
+
+.content {
+  max-width: 500px;
+  width: 100%;
+  border: 2px solid #ef4444;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.title {
+  font-family: "Press Start 2P", monospace;
+  font-size: 2.25rem;
+  color: #ef4444;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.stats {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #22c55e;
+  border-radius: 0.5rem;
+  background-color: rgba(34, 197, 94, 0.05);
+}
+
+.score {
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.5rem;
+  color: #22c55e;
+  margin-bottom: 0.5rem;
+}
+
+.wave {
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.25rem;
+  color: #4ade80;
+  margin-bottom: 1rem;
+}
+
+.achievement {
+  font-size: 0.875rem;
+}
+
+.excellent {
+  color: #fbbf24;
+}
+
+.great {
+  color: #4ade80;
+}
+
+.good {
+  color: #60a5fa;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.restartButton {
+  display: block;
+  padding: 0.75rem 2rem;
+  border: 2px solid #22c55e;
+  border-radius: 0.25rem;
+  background-color: black;
+  font-family: "Press Start 2P", monospace;
+  color: #22c55e;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.restartButton:hover {
+  background-color: #14532d;
+}
+
+.highScoresButton {
+  display: block;
+  padding: 0.75rem 2rem;
+  border: 2px solid #eab308;
+  border-radius: 0.25rem;
+  background-color: black;
+  font-family: "Press Start 2P", monospace;
+  color: #eab308;
+  transition: background-color 0.2s;
+}
+
+.highScoresButton:hover {
+  background-color: #713f12;
+}
+
+.menuButton {
+  display: block;
+  padding: 0.75rem 2rem;
+  border: 2px solid #3b82f6;
+  border-radius: 0.25rem;
+  background-color: black;
+  font-family: "Press Start 2P", monospace;
+  color: #3b82f6;
+  transition: background-color 0.2s;
+}
+
+.menuButton:hover {
+  background-color: #1e3a8a;
+}
